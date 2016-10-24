@@ -1,0 +1,69 @@
+body {
+    font-family: 'Orbitron', sans-serif;
+    background-color: #2aabd2;
+}
+
+#calculator {
+    height: 360px;
+    width: 300px;
+    margin-top: 10%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #f1f1f1;
+    border: 2px solid darkgrey;
+    border-radius: 15px;
+    box-shadow: 7px 10px 34px 1px rgba(0, 0, 0, 0.68), inset -1px -6px 12px 0.1px #89847e;
+}
+
+#title {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#screen {
+    width: 100%;
+    height: 65px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 2px solid #b4b39d;
+    border-radius: 6px;
+    background-color: #c3c2ab;
+}
+
+#answer {
+    margin-right: 5px;
+    font-size: 45px;
+}
+
+#button {
+    font-size: 16px;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+button {
+    border-radius: 20px;
+    border: none;
+    background-color: #3a3a3a;
+    color: #ffffff;
+    box-shadow: 0px 3px 0px 0px #222121, inset -1px -3px 10px 1px #515151;
+}
+
+button:active {
+    transform: translate(0px, 3px);
+    box-shadow: none;
+}
+
+.red {
+    font-size: 14px;
+    background-color: #a72d45;
+    box-shadow: 0px 3px 0px 0px #671c2a;
+}
+
+button,
+button:hover,
+button:active,
+button:visited {
+    text-decoration: none !important;
+    outline: none !important;
+}
